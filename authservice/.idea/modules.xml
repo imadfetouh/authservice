@@ -6,8 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/dal/dal.iml" filepath="$PROJECT_DIR$/dal/dal.iml" />
       <module fileurl="file://$PROJECT_DIR$/dalinterface/dalinterface.iml" filepath="$PROJECT_DIR$/dalinterface/dalinterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/factory/factory.iml" filepath="$PROJECT_DIR$/factory/factory.iml" />
-      <module fileurl="file://$PROJECT_DIR$/logic/logic.iml" filepath="$PROJECT_DIR$/logic/logic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/logicinterface/logicinterface.iml" filepath="$PROJECT_DIR$/logicinterface/logicinterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
       <module fileurl="file://$PROJECT_DIR$/rest/rest.iml" filepath="$PROJECT_DIR$/rest/rest.iml" />
     </modules>

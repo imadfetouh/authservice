@@ -1,8 +1,8 @@
 package com.imadelfetouh.authservice.rest.endpoints;
 
-import com.imadelfetouh.authservice.factory.logicinstance.CreateSignInInstance;
+import com.imadelfetouh.authservice.dalinterface.SignInDal;
 import com.imadelfetouh.authservice.factory.Factory;
-import com.imadelfetouh.authservice.logicinterface.SignInLogic;
+import com.imadelfetouh.authservice.factory.signininstance.CreateSignInInstance;
 import com.imadelfetouh.authservice.model.response.ResponseModel;
 import com.imadelfetouh.authservice.model.response.ResponseType;
 
@@ -13,10 +13,10 @@ import javax.ws.rs.core.Response;
 @Path("/signin")
 public class SignInResource {
 
-    private SignInLogic signInLogic;
+    private SignInDal signInDal;
 
     public SignInResource() {
-        this.signInLogic = (SignInLogic) Factory.getInstance().buildInstance(new CreateSignInInstance());
+        this.signInDal = (SignInDal) Factory.getInstance().buildInstance(new CreateSignInInstance());
     }
 
     @POST
@@ -24,7 +24,11 @@ public class SignInResource {
     @Produces(MediaType.TEXT_PLAIN)
     public Response signIn(@FormParam("username") String username, @FormParam("password") String password) {
 
-        ResponseModel<String> responseModel = signInLogic.signIn(username, password);
+        if(username == null || username.trim().isEmpty() || password == null || password.trim().isEmpty()){
+            return Response.status(400).build();
+        }
+
+        ResponseModel<Integer> responseModel = signInDal.signIn(username, password);
 
         if(responseModel.getResponseType().equals(ResponseType.ERROR)){
             return Response.status(500).build();

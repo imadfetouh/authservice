@@ -8,11 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="rest" />
         <module name="factory" />
-        <module name="dalinterface" />
-        <module name="logicinterface" />
         <module name="model" />
-        <module name="logic" />
         <module name="dal" />
+        <module name="dalinterface" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,8 +18,6 @@
       <module name="dal" target="11" />
       <module name="dalinterface" target="11" />
       <module name="factory" target="11" />
-      <module name="logic" target="11" />
-      <module name="logicinterface" target="11" />
       <module name="model" target="11" />
       <module name="rest" target="11" />
     </bytecodeTargetLevel>

@@ -15,8 +15,6 @@
         <module>model</module>
         <module>dalinterface</module>
         <module>factory</module>
-        <module>logic</module>
-        <module>logicinterface</module>
     </modules>
 
     <properties>

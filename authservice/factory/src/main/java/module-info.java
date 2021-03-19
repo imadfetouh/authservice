@@ -1,6 +1,5 @@
 module factory {
     exports com.imadelfetouh.authservice.factory;
-    exports com.imadelfetouh.authservice.factory.logicinstance;
-    requires logic;
+    exports com.imadelfetouh.authservice.factory.signininstance;
     requires dal;
 }
