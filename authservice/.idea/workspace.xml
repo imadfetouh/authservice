@@ -3,6 +3,9 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="auth" />
+      <artifact name="auth" />
+      <artifact name="auth" />
+      <artifact name="auth" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,143 +13,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba9b226a-e2a5-43c2-b16b-9093ce2269aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/rest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_btf_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_jackson_coreutils_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_json_patch_1_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_msg_simple_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_async_asyncutil_0_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_config_smallrye_config_1_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_config_smallrye_config_common_1_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_microprofile_config_microprofile_config_api_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3_b02.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3_b02.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_c3p0_5_3_6_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_21_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_core_4_5_8_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_core_spi_4_5_8_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jackson2_provider_4_5_8_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxb_provider_4_5_8_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_servlet_initializer_4_5_8_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_3_spec_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_ws_rs_jboss_jaxrs_api_2_1_spec_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_xml_bind_jboss_jaxb_api_2_3_spec_1_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_btf_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_jackson_coreutils_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_json_patch_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_java_json_tools_msg_simple_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_async_asyncutil_0_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_config_smallrye_config_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_config_smallrye_config_common_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_microprofile_config_microprofile_config_api_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3_b02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3_b02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_c3p0_5_3_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_21_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_core_4_5_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_core_spi_4_5_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jackson2_provider_4_5_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxb_provider_4_5_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_servlet_initializer_4_5_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_3_spec_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_ws_rs_jboss_jaxrs_api_2_1_spec_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_xml_bind_jboss_jaxb_api_2_3_spec_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/auth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/auth.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/authservice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dal/dal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dal/dal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dal/src/main/java/com/imadelfetouh/authservice/dal/configuration/SessionConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dal/src/main/java/com/imadelfetouh/authservice/dal/configuration/SessionConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dal/src/main/java/com/imadelfetouh/authservice/dal/configuration/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dal/src/main/java/com/imadelfetouh/authservice/dal/configuration/SessionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/configuration/SessionConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/configuration/SessionConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/configuration/SessionHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/configuration/SessionHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dal/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/target/dal-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/dal-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dalinterface/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/dalinterface/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dalinterface/target/dalinterface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dalinterface/target/dalinterface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dalinterface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dalinterface/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dalinterface/dalinterface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dalinterface/dalinterface.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factory/factory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/factory/factory.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/factory/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/src/main/java/com/imadelfetouh/authservice/factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory/src/main/java/com/imadelfetouh/authservice/factory/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/src/main/java/com/imadelfetouh/authservice/factory/logicinstance/CreateInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory/src/main/java/com/imadelfetouh/authservice/factory/CreateInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/src/main/java/com/imadelfetouh/authservice/factory/logicinstance/CreateSignInInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory/src/main/java/com/imadelfetouh/authservice/factory/signininstance/CreateSignInInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/target/classes/com/imadelfetouh/authservice/factory/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/factory/target/classes/com/imadelfetouh/authservice/factory/Factory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/target/classes/com/imadelfetouh/authservice/factory/logicinstance/CreateInstance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/target/classes/com/imadelfetouh/authservice/factory/logicinstance/CreateSignInInstance.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/factory/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/factory/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/target/factory-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/factory/target/factory-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/factory/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/factory/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/factory/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/logic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/src/main/java/com/imadelfetouh/authservice/logic/rabbit/RabbitConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/src/main/java/com/imadelfetouh/authservice/logic/rabbit/RabbitJWT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/src/main/java/com/imadelfetouh/authservice/logic/signin/SignInLogicLive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/target/classes/com/imadelfetouh/authservice/logic/rabbit/RabbitConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/target/classes/com/imadelfetouh/authservice/logic/rabbit/RabbitJWT$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/target/classes/com/imadelfetouh/authservice/logic/rabbit/RabbitJWT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/target/classes/com/imadelfetouh/authservice/logic/signin/SignInLogicLive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/target/logic-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicinterface/logicinterface.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicinterface/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicinterface/src/main/java/com/imadelfetouh/authservice/logicinterface/SignInLogic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicinterface/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicinterface/target/classes/com/imadelfetouh/authservice/logicinterface/SignInLogic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicinterface/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicinterface/target/logicinterface-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicinterface/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicinterface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicinterface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicinterface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicinterface/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/model-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/rest/rest.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest/rest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rest/rest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest/src/main/java/com/imadelfetouh/authservice/rest/endpoints/SignInResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest/src/main/java/com/imadelfetouh/authservice/rest/endpoints/SignInResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/classes/com/imadelfetouh/authservice/rest/endpoints/SignInResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/classes/com/imadelfetouh/authservice/rest/endpoints/SignInResource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/classes/com/imadelfetouh/authservice/rest/applicationpath/AuthServiceRest.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/classes/com/imadelfetouh/authservice/rest/applicationpath/AuthServiceRest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/classes/com/imadelfetouh/authservice/rest/endpoints/SignInResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/classes/com/imadelfetouh/authservice/rest/endpoints/SignInResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/factory-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/factory-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/logicinterface-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/model-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,10 +123,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -191,23 +135,12 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
+      <command value="mvn compile" />
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/auth" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="auth">
@@ -290,6 +223,8 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
+          <artifact name="auth" />
+          <artifact name="auth" />
           <artifact name="auth" />
           <artifact name="auth" />
         </option>
@@ -413,7 +348,11 @@
       <workItem from="1616061119198" duration="40000" />
       <workItem from="1616140403996" duration="17000" />
       <workItem from="1616144788001" duration="1042000" />
-      <workItem from="1616145877192" duration="485000" />
+      <workItem from="1616145877192" duration="628000" />
+      <workItem from="1616146563327" duration="5594000" />
+      <workItem from="1616156716936" duration="191000" />
+      <workItem from="1616157010659" duration="39000" />
+      <workItem from="1616157262740" duration="2558000" />
     </task>
     <servers />
   </component>
@@ -428,16 +367,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rest/src/main/java/com/imadelfetouh/authservice/rest/endpoints/SignInResource.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

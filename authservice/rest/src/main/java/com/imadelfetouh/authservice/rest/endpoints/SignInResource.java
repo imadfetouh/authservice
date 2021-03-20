@@ -34,6 +34,10 @@ public class SignInResource {
             return Response.status(500).build();
         }
 
+        if(responseModel.getResponseType().equals(ResponseType.WRONGCREDENTIALS)){
+            return Response.status(400).build();
+        }
+
         return Response.status(200).entity(responseModel.getData()).build();
 
     }
