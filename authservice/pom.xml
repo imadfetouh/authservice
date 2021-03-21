@@ -23,6 +23,7 @@
     </properties>
 
     <build>
+        <finalName>auth</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
