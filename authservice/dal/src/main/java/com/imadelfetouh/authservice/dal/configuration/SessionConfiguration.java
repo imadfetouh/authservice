@@ -20,9 +20,9 @@ public class SessionConfiguration {
         Configuration configuration = new Configuration();
         Properties properties = new Properties();
         properties.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
-        properties.put(Environment.URL, "jdbc:mysql://"+System.getenv("AUTHSERVICE_MYSQL_HOST")+":3307/authservice");
-        properties.put(Environment.USER, "root");
-        properties.put(Environment.PASS, "imad");
+        properties.put(Environment.URL, "jdbc:mysql://"+System.getenv("AUTHSERVICE_MYSQL_HOST")+":3307/authservice?createDatabaseIfNotExist=true");
+        properties.put(Environment.USER, System.getenv("AUTHSERVICE_MYSQL_USER"));
+        properties.put(Environment.PASS, System.getenv("AUTHSERVICE_MYSQL_PASS"));
         properties.put(Environment.DIALECT, "org.hibernate.dialect.MariaDBDialect");
         properties.put(Environment.SHOW_SQL, "true");
         properties.put(Environment.CURRENT_SESSION_CONTEXT_CLASS, "thread");

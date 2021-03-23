@@ -6,11 +6,11 @@ import javax.persistence.*;
 @Table(name = "user")
 public class User {
 
-    private User() {
+    public User() {
 
     }
 
-    private User(String username, String password){
+    public User(String username, String password){
         this.username = username;
         this.password = password;
     }

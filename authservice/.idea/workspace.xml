@@ -15,7 +15,10 @@
     <list default="true" id="ba9b226a-e2a5-43c2-b16b-9093ce2269aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dal/src/main/java/com/imadelfetouh/authservice/dal/configuration/SessionConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dal/src/main/java/com/imadelfetouh/authservice/dal/configuration/SessionConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dal/src/main/java/com/imadelfetouh/authservice/dal/ormmodel/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/dal/src/main/java/com/imadelfetouh/authservice/dal/ormmodel/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dal/src/test/java/com/imadelfetouh/authservice/dal/SignInDBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dal/src/test/java/com/imadelfetouh/authservice/dal/SignInDBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/configuration/SessionConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/configuration/SessionConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dal/target/test-classes/com/imadelfetouh/authservice/dal/SignInDBTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/test-classes/com/imadelfetouh/authservice/dal/SignInDBTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +74,7 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SignInDBTest.testUserSignInCorrect">
+  <component name="RunManager" selected="JUnit.SignInDBTest">
     <configuration name="SignInDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.imadelfetouh.authservice.dal.signin.SignInDB" />
       <module name="dal" />
@@ -81,6 +84,32 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInDBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imadelfetouh.authservice.dal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imadelfetouh.authservice.dal" />
+      <option name="MAIN_CLASS_NAME" value="com.imadelfetouh.authservice.dal.SignInDBTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,6 +125,22 @@
       <option name="PACKAGE_NAME" value="com.imadelfetouh.authservice.dal" />
       <option name="MAIN_CLASS_NAME" value="com.imadelfetouh.authservice.dal.SignInDBTest" />
       <option name="METHOD_NAME" value="testUserSignInCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInDBTest.testUserSignInIncorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imadelfetouh.authservice.dal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imadelfetouh.authservice.dal" />
+      <option name="MAIN_CLASS_NAME" value="com.imadelfetouh.authservice.dal.SignInDBTest" />
+      <option name="METHOD_NAME" value="testUserSignInIncorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -282,7 +327,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SignInDBTest" />
         <item itemvalue="JUnit.SignInDBTest.testUserSignInCorrect" />
+        <item itemvalue="JUnit.SignInDBTest.testUserSignInIncorrect" />
         <item itemvalue="Application.SignInDB" />
       </list>
     </recent_temporary>
@@ -335,7 +382,8 @@
       <workItem from="1616504609267" duration="223000" />
       <workItem from="1616504917460" duration="2920000" />
       <workItem from="1616510428063" duration="2123000" />
-      <workItem from="1616519693156" duration="323000" />
+      <workItem from="1616519693156" duration="1210000" />
+      <workItem from="1616532133462" duration="879000" />
     </task>
     <servers />
   </component>
@@ -350,5 +398,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dal/src/main/java/com/imadelfetouh/authservice/dal/queryexecuter/SignInExecuter.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
