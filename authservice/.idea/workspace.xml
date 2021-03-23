@@ -14,7 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba9b226a-e2a5-43c2-b16b-9093ce2269aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/src/test/java/com/imadelfetouh/authservice/dal/SignInDBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dal/src/test/java/com/imadelfetouh/authservice/dal/SignInDBTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -343,7 +342,7 @@
       <workItem from="1616495396020" duration="157000" />
       <workItem from="1616500968256" duration="413000" />
       <workItem from="1616504609267" duration="223000" />
-      <workItem from="1616504917460" duration="2229000" />
+      <workItem from="1616504917460" duration="2690000" />
     </task>
     <servers />
   </component>
