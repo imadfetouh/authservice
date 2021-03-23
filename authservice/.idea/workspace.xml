@@ -13,85 +13,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba9b226a-e2a5-43c2-b16b-9093ce2269aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/rest_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/rest_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/auth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/auth.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/configuration/Executer.class" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/configuration/Executer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/configuration/QueryExecuter.class" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/configuration/QueryExecuter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/configuration/SessionConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/configuration/SessionConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/configuration/SessionHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/configuration/SessionHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/ormmodel/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/ormmodel/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/queryexecuter/SignInExecuter.class" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/queryexecuter/SignInExecuter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dal/dal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dal/dal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dal/src/main/java/com/imadelfetouh/authservice/dal/configuration/SessionConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dal/src/main/java/com/imadelfetouh/authservice/dal/configuration/SessionConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dal/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/dal/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dal/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dal/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dal/target/auth.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/auth.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/signin/SignInDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/classes/com/imadelfetouh/authservice/dal/signin/SignInDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/target/dal-1.0-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dal/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dalinterface/target/classes/com/imadelfetouh/authservice/dalinterface/SignInDal.class" beforeDir="false" afterPath="$PROJECT_DIR$/dalinterface/target/classes/com/imadelfetouh/authservice/dalinterface/SignInDal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dalinterface/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/dalinterface/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dalinterface/target/dalinterface-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dalinterface/target/auth.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dalinterface/target/auth.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dalinterface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dalinterface/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/factory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/factory/factory.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/target/classes/com/imadelfetouh/authservice/factory/CreateInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/factory/target/classes/com/imadelfetouh/authservice/factory/CreateInstance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/target/classes/com/imadelfetouh/authservice/factory/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/factory/target/classes/com/imadelfetouh/authservice/factory/Factory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/target/classes/com/imadelfetouh/authservice/factory/signininstance/CreateSignInInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/factory/target/classes/com/imadelfetouh/authservice/factory/signininstance/CreateSignInInstance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/factory/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/target/factory-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory/target/auth.jar" beforeDir="false" afterPath="$PROJECT_DIR$/factory/target/auth.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factory/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/factory/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/classes/com/imadelfetouh/authservice/model/response/ResponseModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/imadelfetouh/authservice/model/response/ResponseModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/classes/com/imadelfetouh/authservice/model/response/ResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/com/imadelfetouh/authservice/model/response/ResponseType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/auth.jar" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/auth.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/model-1.0-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/auth/auth.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/auth/auth.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/rest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rest/rest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/classes/com/imadelfetouh/authservice/rest/applicationpath/AuthServiceRest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/classes/com/imadelfetouh/authservice/rest/endpoints/SignInResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/classes/com/imadelfetouh/authservice/rest/applicationpath/AuthServiceRest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/classes/com/imadelfetouh/authservice/rest/endpoints/SignInResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/asyncutil-0.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/btf-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/dalinterface-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/factory-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/istack-commons-runtime-3.0.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/jackson-coreutils-2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-base-2.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-json-provider-2.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/jackson-module-jaxb-annotations-2.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/jakarta.activation-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/jakarta.activation-api-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/jaxb-runtime-2.3.3-b02.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/jboss-annotations-api_1.3_spec-2.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/jboss-jaxb-api_2.3_spec-1.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/jboss-jaxrs-api_2.1_spec-2.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/json-patch-1.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/microprofile-config-api-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/model-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/msg-simple-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/reactive-streams-1.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/resteasy-core-4.5.8.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/resteasy-core-spi-4.5.8.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/resteasy-jackson2-provider-4.5.8.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/resteasy-jaxb-provider-4.5.8.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/resteasy-servlet-initializer-4.5.8.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/smallrye-config-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/smallrye-config-common-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/rest-1.0-SNAPSHOT/WEB-INF/lib/txw2-2.3.3-b02.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/test-classes/META-INF/jpms.args" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/src/main/java/com/imadelfetouh/authservice/rest/endpoints/TestResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest/src/main/java/com/imadelfetouh/authservice/rest/endpoints/TestResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/target/auth.war" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/auth.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/target/auth/WEB-INF/classes/com/imadelfetouh/authservice/rest/endpoints/TestResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/auth/WEB-INF/classes/com/imadelfetouh/authservice/rest/endpoints/TestResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/target/auth/WEB-INF/lib/dalinterface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/auth/WEB-INF/lib/dalinterface-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/target/auth/WEB-INF/lib/factory-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/auth/WEB-INF/lib/factory-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/target/auth/WEB-INF/lib/model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/auth/WEB-INF/lib/model-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/target/classes/com/imadelfetouh/authservice/rest/endpoints/TestResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/classes/com/imadelfetouh/authservice/rest/endpoints/TestResource.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +94,47 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SignInDBTest.testUserSignInCorrect">
+    <configuration name="SignInDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imadelfetouh.authservice.dal.signin.SignInDB" />
+      <module name="dal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imadelfetouh.authservice.dal.signin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInDBTest.testUserSignInCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imadelfetouh.authservice.dal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imadelfetouh.authservice.dal" />
+      <option name="MAIN_CLASS_NAME" value="com.imadelfetouh.authservice.dal.SignInDBTest" />
+      <option name="METHOD_NAME" value="testUserSignInCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/auth" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -327,6 +314,12 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SignInDBTest.testUserSignInCorrect" />
+        <item itemvalue="Application.SignInDB" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -368,6 +361,13 @@
       <workItem from="1616330871018" duration="4706000" />
       <workItem from="1616337624234" duration="4323000" />
       <workItem from="1616344749809" duration="1657000" />
+      <workItem from="1616398505573" duration="2199000" />
+      <workItem from="1616401742314" duration="100000" />
+      <workItem from="1616423769208" duration="1716000" />
+      <workItem from="1616495396020" duration="157000" />
+      <workItem from="1616500968256" duration="413000" />
+      <workItem from="1616504609267" duration="223000" />
+      <workItem from="1616504917460" duration="2149000" />
     </task>
     <servers />
   </component>

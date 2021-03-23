@@ -8,4 +8,6 @@ module dal {
     requires model;
 
     exports com.imadelfetouh.authservice.dal.signin;
+
+    opens com.imadelfetouh.authservice.dal.ormmodel;
 }

@@ -1,0 +1,57 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mysql-persistent-storage-authservice
+  labels:
+    app: mysql-authservice
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql-authservice-deployment
+  labels:
+    app: mysql-authservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysql-authservice
+  template:
+    metadata:
+      labels:
+        app: mysql-authservice
+    spec:
+      containers:
+        - name: mysql-authservice
+          imagePullPolicy: Always
+          image: mysql
+          ports:
+            - containerPort: 3306
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              value: root
+          volumeMounts:
+            - name: mysql-persistent-storage-authservice
+              mountPath: /var/lib/mysql
+      volumes:
+        - name: mysql-persistent-storage-authservice
+          persistentVolumeClaim:
+            claimName: mysql-persistent-storage-authservice
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql-authservice-service
+spec:
+  selector:
+    app: mysql-authservice
+  type: LoadBalancer
+  ports:
+    - port: 3308
+      targetPort: 3306
