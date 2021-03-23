@@ -3,6 +3,8 @@ trigger:
 
 variables:
   AUTHSERVICE_MYSQL_HOST: localhost
+  AUTHSERVICE_MYSQL_USER: root
+  AUTHSERVICE_MYSQL_PASS: imad
 
 pool:
   vmImage: ubuntu-latest
@@ -15,13 +17,6 @@ steps:
     dockerComposeFile: 'docker-compose.yml'
     action: 'Run a Docker Compose command'
     dockerComposeCommand: 'up -d'
-
-- script: |
-    sleep 25
-    docker container ps
-
-- script: |
-    docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mysql_service
     
 - task: SonarCloudPrepare@1
   inputs:
