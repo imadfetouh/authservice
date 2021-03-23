@@ -14,14 +14,13 @@ steps:
     dockerRegistryEndpoint: 'DockerRegistry'
     dockerComposeFile: 'docker-compose.yml'
     action: 'Run a Docker Compose command'
-    dockerComposeCommand: 'up'
+    dockerComposeCommand: 'up -d'
 
 - script: |
-    sleep 5
+    sleep 25
     docker container ps
 
 - script: |
-    sleep 5
     docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mysql_service
     
 - task: SonarCloudPrepare@1
