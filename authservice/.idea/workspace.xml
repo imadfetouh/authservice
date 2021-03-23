@@ -57,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../EnergyGrid-East" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -342,7 +342,7 @@
       <workItem from="1616495396020" duration="157000" />
       <workItem from="1616500968256" duration="413000" />
       <workItem from="1616504609267" duration="223000" />
-      <workItem from="1616504917460" duration="2690000" />
+      <workItem from="1616504917460" duration="2920000" />
     </task>
     <servers />
   </component>
