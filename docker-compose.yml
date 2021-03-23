@@ -9,7 +9,7 @@ services:
       MYSQL_USER: root
       MYSQL_ROOT_PASSWORD: imad
 
-   authservice-mysql:
+  nginx-service:
     image: nginx
     restart: always
     ports:
