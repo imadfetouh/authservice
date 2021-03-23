@@ -8,10 +8,4 @@ services:
       - "3307:3306"
     environment:
       MYSQL_USER: kwetterimad
-      MYSQL_ROOT_PASSWORD: imad
-
-  nginx-service:
-    image: nginx
-    restart: always
-    ports:
-      - "80:80"
+      MYSQL_PASSWORD: imad
