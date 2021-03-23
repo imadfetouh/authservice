@@ -23,6 +23,10 @@ steps:
     scannerMode: 'MSBuild'
     projectKey: 'imadfetouh_authservice'
     projectName: 'authservice'
+  
+- script: |
+    sleep 25
+    curl localhost:80
     
 - task: Maven@3
   inputs:
