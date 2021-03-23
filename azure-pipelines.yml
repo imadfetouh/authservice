@@ -17,11 +17,9 @@ steps:
     dockerComposeCommand: 'up'
 
 - script: |
-    sleep 5
     docker container ps
 
 - script: |
-    sleep 5
     docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mysql_service
     
 - task: SonarCloudPrepare@1
