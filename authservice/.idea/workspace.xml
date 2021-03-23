@@ -15,6 +15,7 @@
     <list default="true" id="ba9b226a-e2a5-43c2-b16b-9093ce2269aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dal/src/main/java/com/imadelfetouh/authservice/dal/configuration/SessionConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dal/src/main/java/com/imadelfetouh/authservice/dal/configuration/SessionConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,7 +347,7 @@
       <workItem from="1616500968256" duration="413000" />
       <workItem from="1616504609267" duration="223000" />
       <workItem from="1616504917460" duration="2920000" />
-      <workItem from="1616510428063" duration="1617000" />
+      <workItem from="1616510428063" duration="2123000" />
     </task>
     <servers />
   </component>
