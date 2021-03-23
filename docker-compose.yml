@@ -7,5 +7,4 @@ services:
     ports:
       - "3307:3306"
     environment:
-      MYSQL_USER: kwetterimad
-      MYSQL_PASSWORD: imad
+      MYSQL_ROOT_PASSWORD: imad
