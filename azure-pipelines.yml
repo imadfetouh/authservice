@@ -2,7 +2,7 @@ trigger:
 - main
 
 variables:
-  AUTHSERVICE_MYSQL_HOST: Agent.MachineName
+  AUTHSERVICE_MYSQL_HOST: localhost
 
 pool:
   vmImage: ubuntu-latest
