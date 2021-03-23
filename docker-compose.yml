@@ -8,3 +8,9 @@ services:
     environment:
       MYSQL_USER: root
       MYSQL_ROOT_PASSWORD: imad
+
+   authservice-mysql:
+    image: nginx
+    restart: always
+    ports:
+      - "80:80"
