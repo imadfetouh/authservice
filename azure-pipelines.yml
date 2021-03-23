@@ -14,7 +14,7 @@ steps:
     dockerRegistryEndpoint: 'DockerRegistry'
     dockerComposeFile: 'docker-compose.yml'
     action: 'Run a Docker Compose command'
-    dockerComposeCommand: 'rm --all'
+    dockerComposeCommand: 'up'
 
 - script: |
     sleep 5
