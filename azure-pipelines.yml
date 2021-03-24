@@ -18,18 +18,18 @@ steps:
     action: 'Run a Docker Compose command'
     dockerComposeCommand: 'up -d'
     
-- task: SonarCloudPrepare@1
-  inputs:
-    SonarCloud: 'SonarCloud'
-    organization: 'imadfetouh'
-    scannerMode: 'MSBuild'
-    projectKey: 'imadfetouh_authservice'
-    projectName: 'authservice'
+# - task: SonarCloudPrepare@1
+#   inputs:
+#     SonarCloud: 'SonarCloud'
+#     organization: 'imadfetouh'
+#     scannerMode: 'MSBuild'
+#     projectKey: 'imadfetouh_authservice'
+#     projectName: 'authservice'
     
 - task: Maven@3
   inputs:
     mavenPomFile: 'authservice/pom.xml'
-    goals: 'clean install'
+    goals: 'clean install sonar:sonar'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     javaHomeOption: 'JDKVersion'
@@ -39,6 +39,15 @@ steps:
     sonarQubeRunAnalysis: true
     sqMavenPluginVersionChoice: 'latest'
 
-- task: SonarCloudPublish@1
+- task: Docker@2
   inputs:
-    pollingTimeoutSec: '300'
+    containerRegistry: 'DockerRegistry'
+    repository: 'imadelfetouh/authservice'
+    command: 'buildAndPush'
+    Dockerfile: 'authservice/Dockerfile'
+    buildContext: 
+    tags: 'latest'
+
+# - task: SonarCloudPublish@1
+#   inputs:
+#     pollingTimeoutSec: '300'
