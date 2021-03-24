@@ -18,4 +18,15 @@ public class SignInResourceTest {
 
         Assertions.assertEquals(200, response.getStatus());
     }
+
+    @Test
+    public void testUserSignInIncorrect() {
+        SignInResource signInResource = new SignInResource();
+        String username = "imad";
+        String password = "test";
+
+        Response response = signInResource.signIn(username, password);
+
+        Assertions.assertEquals(400, response.getStatus());
+    }
 }
