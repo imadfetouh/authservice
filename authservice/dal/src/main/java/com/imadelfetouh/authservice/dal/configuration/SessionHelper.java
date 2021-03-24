@@ -2,7 +2,7 @@ package com.imadelfetouh.authservice.dal.configuration;
 
 import org.hibernate.Session;
 
-public abstract class SessionHelper {
+public class SessionHelper {
 
     private Session session;
 

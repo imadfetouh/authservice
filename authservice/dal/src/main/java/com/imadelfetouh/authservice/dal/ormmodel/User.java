@@ -6,7 +6,7 @@ import javax.persistence.*;
 @Table(name = "user")
 public class User {
 
-    public User() {
+    private User() {
 
     }
 

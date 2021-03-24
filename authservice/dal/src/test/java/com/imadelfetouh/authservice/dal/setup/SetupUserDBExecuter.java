@@ -1,6 +1,5 @@
 package com.imadelfetouh.authservice.dal.setup;
 
-import com.imadelfetouh.authservice.dal.configuration.Executer;
 import com.imadelfetouh.authservice.dal.configuration.QueryExecuter;
 import com.imadelfetouh.authservice.dal.ormmodel.User;
 import com.imadelfetouh.authservice.model.response.ResponseModel;
@@ -12,7 +11,6 @@ public class SetupUserDBExecuter implements QueryExecuter<Void> {
     public SetupUserDBExecuter() {
 
     }
-
 
     @Override
     public ResponseModel<Void> executeQuery(Session session) {

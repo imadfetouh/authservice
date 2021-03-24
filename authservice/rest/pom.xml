@@ -40,6 +40,12 @@
         </dependency>
         <dependency>
             <groupId>com.imadelfetouh.authservice</groupId>
+            <artifactId>model</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.imadelfetouh.authservice</groupId>
             <artifactId>dalinterface</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>

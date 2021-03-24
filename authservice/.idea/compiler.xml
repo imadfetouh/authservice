@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rest" />
         <module name="factory" />
+        <module name="rest" />
         <module name="model" />
         <module name="dal" />
         <module name="dalinterface" />
@@ -17,7 +17,6 @@
       <module name="authservice" target="11" />
       <module name="dal" target="11" />
       <module name="dalinterface" target="11" />
-      <module name="environment" target="11" />
       <module name="factory" target="11" />
       <module name="model" target="11" />
       <module name="rest" target="11" />

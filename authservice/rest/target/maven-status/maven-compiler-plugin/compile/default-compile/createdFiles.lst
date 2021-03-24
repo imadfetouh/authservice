@@ -1,4 +1,3 @@
 com\imadelfetouh\authservice\rest\applicationpath\AuthServiceRest.class
 com\imadelfetouh\authservice\rest\endpoints\SignInResource.class
-com\imadelfetouh\authservice\rest\endpoints\TestResource.class
 module-info.class
