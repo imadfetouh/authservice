@@ -1,0 +1,7 @@
+organization=imadfetouh
+projectKey=imadfetouh_authservice
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.18630
+dashboardUrl=https://sonarcloud.io/dashboard?id=imadfetouh_authservice
+ceTaskId=AXhkI3M7iuDbfj9WyuhG
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXhkI3M7iuDbfj9WyuhG
