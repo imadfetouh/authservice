@@ -14,28 +14,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba9b226a-e2a5-43c2-b16b-9093ce2269aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/target/auth.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/auth.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/target/surefire-reports/TEST-com.imadelfetouh.authservice.dal.SignInDBTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/surefire-reports/TEST-com.imadelfetouh.authservice.dal.SignInDBTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/target/surefire-reports/com.imadelfetouh.authservice.dal.SignInDBTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dal/target/surefire-reports/com.imadelfetouh.authservice.dal.SignInDBTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dalinterface/target/auth.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dalinterface/target/auth.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dalinterface/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dalinterface/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/target/auth.jar" beforeDir="false" afterPath="$PROJECT_DIR$/factory/target/auth.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/factory/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/target/surefire-reports/TEST-com.imadelfetouh.authservice.factory.FactoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/factory/target/surefire-reports/TEST-com.imadelfetouh.authservice.factory.FactoryTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/target/surefire-reports/com.imadelfetouh.authservice.factory.FactoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/factory/target/surefire-reports/com.imadelfetouh.authservice.factory.FactoryTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/auth.jar" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/auth.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/surefire-reports/TEST-com.imadelfetouh.authservice.model.ResponseModelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/surefire-reports/TEST-com.imadelfetouh.authservice.model.ResponseModelTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/target/surefire-reports/com.imadelfetouh.authservice.model.ResponseModelTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/surefire-reports/com.imadelfetouh.authservice.model.ResponseModelTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/auth.war" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/auth.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/auth/WEB-INF/lib/dal-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/auth/WEB-INF/lib/dal-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/auth/WEB-INF/lib/dalinterface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/auth/WEB-INF/lib/dalinterface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/auth/WEB-INF/lib/factory-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/auth/WEB-INF/lib/factory-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/auth/WEB-INF/lib/model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/auth/WEB-INF/lib/model-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/surefire-reports/TEST-com.imadelfetouh.authservice.rest.SignInResourceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/surefire-reports/TEST-com.imadelfetouh.authservice.rest.SignInResourceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/target/surefire-reports/com.imadelfetouh.authservice.rest.SignInResourceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rest/target/surefire-reports/com.imadelfetouh.authservice.rest.SignInResourceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -429,7 +408,7 @@
       <workItem from="1616574142137" duration="2734000" />
       <workItem from="1616577970012" duration="49000" />
       <workItem from="1616578056201" duration="56000" />
-      <workItem from="1616581468250" duration="4963000" />
+      <workItem from="1616581468250" duration="5478000" />
     </task>
     <servers />
   </component>
