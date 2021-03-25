@@ -5,10 +5,6 @@ public class ResponseModel<T> {
     private T data;
     private ResponseType responseType;
 
-    public ResponseModel() {
-
-    }
-
     public void setData(T data) {
         this.data = data;
     }
