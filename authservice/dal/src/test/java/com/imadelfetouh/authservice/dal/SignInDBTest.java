@@ -9,7 +9,8 @@ import com.imadelfetouh.authservice.model.response.ResponseType;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-class SignInDBTest {
+
+public class SignInDBTest {
 
     @BeforeAll
     public static void setUpDatabase() {
