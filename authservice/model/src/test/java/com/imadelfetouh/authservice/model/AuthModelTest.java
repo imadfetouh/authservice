@@ -12,6 +12,6 @@ public class AuthModelTest {
 
         Assertions.assertEquals(1, authModel.getUserId());
         Assertions.assertEquals("imad", authModel.getUsername());
-        Assertions.assertEquals("imad.jpg", authModel.getPhoto());
+        Assertions.assertEquals("user.jpg", authModel.getPhoto());
     }
 }
