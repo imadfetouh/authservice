@@ -1,6 +1,7 @@
 package com.imadelfetouh.authservice.dal.setup;
 
 import com.imadelfetouh.authservice.dal.configuration.QueryExecuter;
+import com.imadelfetouh.authservice.dal.ormmodel.Role;
 import com.imadelfetouh.authservice.dal.ormmodel.User;
 import com.imadelfetouh.authservice.model.response.ResponseModel;
 import com.imadelfetouh.authservice.model.response.ResponseType;
@@ -15,8 +16,8 @@ public class SetupUserDBExecuter implements QueryExecuter<Void> {
     @Override
     public ResponseModel<Void> executeQuery(Session session) {
         ResponseModel<Void> responseModel = new ResponseModel<>();
-        User user = new User("imad", "imad");
-        User user1 = new User("test", "test");
+        User user = new User("imad", "imad", Role.ADMINISTRATOR);
+        User user1 = new User("test", "test", Role.USER);
 
         session.persist(user);
         session.persist(user1);

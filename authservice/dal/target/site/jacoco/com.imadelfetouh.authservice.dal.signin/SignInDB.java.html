@@ -3,19 +3,20 @@
 import com.imadelfetouh.authservice.dal.configuration.Executer;
 import com.imadelfetouh.authservice.dal.queryexecuter.SignInExecuter;
 import com.imadelfetouh.authservice.dalinterface.SignInDal;
+import com.imadelfetouh.authservice.model.dto.AuthModel;
 import com.imadelfetouh.authservice.model.response.ResponseModel;
 
 public class SignInDB implements SignInDal {
 
-    private Executer&lt;Integer&gt; executer;
+    private Executer&lt;AuthModel&gt; executer;
 
-<span class="fc" id="L12">    public SignInDB() {</span>
-<span class="fc" id="L13">        executer = new Executer&lt;&gt;();</span>
-<span class="fc" id="L14">    }</span>
+<span class="fc" id="L13">    public SignInDB() {</span>
+<span class="fc" id="L14">        executer = new Executer&lt;&gt;();</span>
+<span class="fc" id="L15">    }</span>
 
     @Override
-    public ResponseModel&lt;Integer&gt; signIn(String username, String password) {
-<span class="fc" id="L18">        return executer.execute(new SignInExecuter(username, password));</span>
+    public ResponseModel&lt;AuthModel&gt; signIn(String username, String password) {
+<span class="fc" id="L19">        return executer.execute(new SignInExecuter(username, password));</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

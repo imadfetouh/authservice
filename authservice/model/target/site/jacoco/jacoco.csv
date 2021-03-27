@@ -1,3 +1,4 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+model,com.imadelfetouh.authservice.model.dto,AuthModel,12,0,0,0,5,0,1,0,1,0
 model,com.imadelfetouh.authservice.model.response,ResponseType,0,34,0,0,0,4,0,1,0,1
-model,com.imadelfetouh.authservice.model.response,ResponseModel,0,17,0,0,0,8,0,5,0,5
+model,com.imadelfetouh.authservice.model.response,ResponseModel,0,17,0,0,0,7,0,5,0,5

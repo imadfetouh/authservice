@@ -6,14 +6,15 @@ import javax.persistence.*;
 @Table(name = &quot;user&quot;)
 public class User {
 
-    private User() {
+<span class="fc" id="L9">    public User() {</span>
 
-    }
+<span class="fc" id="L11">    }</span>
 
-<span class="fc" id="L13">    public User(String username, String password){</span>
+<span class="fc" id="L13">    public User(String username, String password, Role role){</span>
 <span class="fc" id="L14">        this.username = username;</span>
 <span class="fc" id="L15">        this.password = password;</span>
-<span class="fc" id="L16">    }</span>
+<span class="fc" id="L16">        this.role = role;</span>
+<span class="fc" id="L17">    }</span>
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,8 +27,15 @@ public class User {
     @Column(name = &quot;password&quot;)
     private String password;
 
+    @Enumerated(EnumType.STRING)
+    @Column(name = &quot;role&quot;)
+    private Role role;
+
+    @Column(name = &quot;photo&quot;)
+    private String photo;
+
     public Integer getId() {
-<span class="fc" id="L30">        return id;</span>
+<span class="nc" id="L38">        return id;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

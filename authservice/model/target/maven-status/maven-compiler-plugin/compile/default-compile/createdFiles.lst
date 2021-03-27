@@ -1,3 +1,4 @@
-com\imadelfetouh\authservice\model\response\ResponseModel.class
 com\imadelfetouh\authservice\model\response\ResponseType.class
+com\imadelfetouh\authservice\model\dto\AuthModel.class
+com\imadelfetouh\authservice\model\response\ResponseModel.class
 module-info.class

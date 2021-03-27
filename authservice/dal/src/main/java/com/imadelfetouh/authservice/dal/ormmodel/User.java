@@ -6,13 +6,14 @@ import javax.persistence.*;
 @Table(name = "user")
 public class User {
 
-    private User() {
+    public User() {
 
     }
 
-    public User(String username, String password){
+    public User(String username, String password, Role role){
         this.username = username;
         this.password = password;
+        this.role = role;
     }
 
     @Id
@@ -29,6 +30,9 @@ public class User {
     @Enumerated(EnumType.STRING)
     @Column(name = "role")
     private Role role;
+
+    @Column(name = "photo")
+    private String photo;
 
     public Integer getId() {
         return id;

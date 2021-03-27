@@ -2,6 +2,7 @@
 
 import com.imadelfetouh.authservice.dal.configuration.QueryExecuter;
 import com.imadelfetouh.authservice.dal.ormmodel.User;
+import com.imadelfetouh.authservice.model.dto.AuthModel;
 import com.imadelfetouh.authservice.model.response.ResponseModel;
 import com.imadelfetouh.authservice.model.response.ResponseType;
 import org.hibernate.Session;
@@ -11,37 +12,37 @@ import javax.persistence.Query;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class SignInExecuter implements QueryExecuter&lt;Integer&gt; {
+public class SignInExecuter implements QueryExecuter&lt;AuthModel&gt; {
 
-<span class="fc" id="L16">    private static final Logger logger = Logger.getLogger(SignInExecuter.class.getName());</span>
+<span class="fc" id="L17">    private static final Logger logger = Logger.getLogger(SignInExecuter.class.getName());</span>
 
     private String username;
     private String password;
 
-<span class="fc" id="L21">    public SignInExecuter(String username, String password) {</span>
-<span class="fc" id="L22">        this.username = username;</span>
-<span class="fc" id="L23">        this.password = password;</span>
-<span class="fc" id="L24">    }</span>
+<span class="fc" id="L22">    public SignInExecuter(String username, String password) {</span>
+<span class="fc" id="L23">        this.username = username;</span>
+<span class="fc" id="L24">        this.password = password;</span>
+<span class="fc" id="L25">    }</span>
 
     @Override
-    public ResponseModel&lt;Integer&gt; executeQuery(Session session) {
-<span class="fc" id="L28">        ResponseModel&lt;Integer&gt; responseModel = new ResponseModel&lt;&gt;();</span>
+    public ResponseModel&lt;AuthModel&gt; executeQuery(Session session) {
+<span class="fc" id="L29">        ResponseModel&lt;AuthModel&gt; responseModel = new ResponseModel&lt;&gt;();</span>
 
-<span class="fc" id="L30">        Query query = session.createQuery(&quot;SELECT u FROM User u WHERE u.username = :username AND u.password = :password&quot;);</span>
-<span class="fc" id="L31">        query.setParameter(&quot;username&quot;, this.username);</span>
-<span class="fc" id="L32">        query.setParameter(&quot;password&quot;, this.password);</span>
+<span class="fc" id="L31">        Query query = session.createQuery(&quot;SELECT new com.imadelfetouh.authservice.model.dto.AuthModel(u.id, u.password, u.photo) FROM User u WHERE u.username = :username AND u.password = :password&quot;);</span>
+<span class="fc" id="L32">        query.setParameter(&quot;username&quot;, this.username);</span>
+<span class="fc" id="L33">        query.setParameter(&quot;password&quot;, this.password);</span>
 
         try {
-<span class="fc" id="L35">            User user = (User) query.getSingleResult();</span>
-<span class="fc" id="L36">            responseModel.setData(user.getId());</span>
-<span class="fc" id="L37">            responseModel.setResponseType(ResponseType.CORRECT);</span>
+<span class="fc" id="L36">            AuthModel authModel = (AuthModel) query.getSingleResult();</span>
+<span class="fc" id="L37">            responseModel.setData(authModel);</span>
+<span class="fc" id="L38">            responseModel.setResponseType(ResponseType.CORRECT);</span>
         }
-<span class="fc" id="L39">        catch (NoResultException e){</span>
-<span class="fc" id="L40">            logger.log(Level.ALL, e.getMessage());</span>
-<span class="fc" id="L41">            responseModel.setResponseType(ResponseType.WRONGCREDENTIALS);</span>
-<span class="fc" id="L42">        }</span>
+<span class="fc" id="L40">        catch (NoResultException e){</span>
+<span class="fc" id="L41">            logger.log(Level.ALL, e.getMessage());</span>
+<span class="fc" id="L42">            responseModel.setResponseType(ResponseType.WRONGCREDENTIALS);</span>
+<span class="fc" id="L43">        }</span>
 
-<span class="fc" id="L44">        return responseModel;</span>
+<span class="fc" id="L45">        return responseModel;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

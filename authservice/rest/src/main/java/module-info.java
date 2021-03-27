@@ -3,4 +3,5 @@ module rest {
     requires model;
     requires factory;
     requires dalinterface;
+    requires com.google.gson;
 }

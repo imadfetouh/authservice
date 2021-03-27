@@ -17,7 +17,7 @@ public class SessionConfiguration {
 <span class="fc" id="L17">        Configuration configuration = new Configuration();</span>
 <span class="fc" id="L18">        Properties properties = new Properties();</span>
 <span class="fc" id="L19">        properties.put(Environment.DRIVER, &quot;com.mysql.cj.jdbc.Driver&quot;);</span>
-<span class="fc" id="L20">        properties.put(Environment.URL, &quot;jdbc:mysql://&quot;+System.getenv(&quot;AUTHSERVICE_MYSQL_HOST&quot;)+&quot;:3307/authservice?createDatabaseIfNotExist=true&quot;);</span>
+<span class="fc" id="L20">        properties.put(Environment.URL, &quot;jdbc:mysql://&quot;+System.getenv(&quot;AUTHSERVICE_MYSQL_HOST&quot;)+&quot;:3306/authservice?createDatabaseIfNotExist=true&quot;);</span>
 <span class="fc" id="L21">        properties.put(Environment.USER, System.getenv(&quot;AUTHSERVICE_MYSQL_USER&quot;));</span>
 <span class="fc" id="L22">        properties.put(Environment.PASS, System.getenv(&quot;AUTHSERVICE_MYSQL_PASS&quot;));</span>
 <span class="fc" id="L23">        properties.put(Environment.DIALECT, &quot;org.hibernate.dialect.MariaDBDialect&quot;);</span>
@@ -35,7 +35,7 @@ public class SessionConfiguration {
 <span class="fc" id="L35">    }</span>
 
     public static SessionConfiguration getInstance() {
-<span class="pc bpc" id="L38" title="1 of 2 branches missed.">        return (sessionConfiguration == null) ? new SessionConfiguration() : sessionConfiguration;</span>
+<span class="fc" id="L38">        return sessionConfiguration;</span>
     }
 
     public Session getSession() {

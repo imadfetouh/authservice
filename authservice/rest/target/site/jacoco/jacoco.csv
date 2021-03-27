@@ -1,3 +1,3 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
 rest,com.imadelfetouh.authservice.rest.applicationpath,AuthServiceRest,3,0,0,0,1,0,1,0,1,0
-rest,com.imadelfetouh.authservice.rest.endpoints,SignInResource,8,50,5,7,2,9,5,3,0,2
+rest,com.imadelfetouh.authservice.rest.endpoints,SignInResource,8,56,5,7,2,10,5,3,0,2
