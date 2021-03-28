@@ -13,8 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba9b226a-e2a5-43c2-b16b-9093ce2269aa" name="Default Changelist" comment="public test class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/src/test/java/com/imadelfetouh/authservice/dal/SignInDBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dal/src/test/java/com/imadelfetouh/authservice/dal/SignInDBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/test/java/com/imadelfetouh/authservice/model/AuthModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/test/java/com/imadelfetouh/authservice/model/AuthModelTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +77,19 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.SignInResourceTest.testUserSignInCorrect">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FactoryTest.testInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="factory" />
       <extension name="coverage">
@@ -405,7 +417,7 @@
       <workItem from="1616705216024" duration="59000" />
       <workItem from="1616706280797" duration="1327000" />
       <workItem from="1616870651036" duration="2211000" />
-      <workItem from="1616936215035" duration="139000" />
+      <workItem from="1616936215035" duration="421000" />
     </task>
     <task id="LOCAL-00001" summary="sonar bug and rolemodel">
       <created>1616677743219</created>
