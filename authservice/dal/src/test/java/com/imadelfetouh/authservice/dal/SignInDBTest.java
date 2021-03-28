@@ -25,6 +25,7 @@ public class SignInDBTest {
         ResponseModel<AuthModel> responseModel = signInDal.signIn("imad", "imad");
 
         Assertions.assertEquals(ResponseType.CORRECT, responseModel.getResponseType());
+        Assertions.assertEquals("imad", responseModel.getData().getUsername());
     }
 
     @Test
@@ -33,5 +34,6 @@ public class SignInDBTest {
         ResponseModel<AuthModel> responseModel = signInDal.signIn("imad", "test");
 
         Assertions.assertEquals(ResponseType.WRONGCREDENTIALS, responseModel.getResponseType());
+        Assertions.assertNull(responseModel.getData());
     }
 }
