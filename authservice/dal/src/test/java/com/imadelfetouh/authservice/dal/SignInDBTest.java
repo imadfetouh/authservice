@@ -1,6 +1,7 @@
 package com.imadelfetouh.authservice.dal;
 
 import com.imadelfetouh.authservice.dal.configuration.Executer;
+import com.imadelfetouh.authservice.dal.configuration.SessionType;
 import com.imadelfetouh.authservice.dal.setup.SetupUserDBExecuter;
 import com.imadelfetouh.authservice.dal.signin.SignInDB;
 import com.imadelfetouh.authservice.dalinterface.SignInDal;
@@ -15,7 +16,7 @@ public class SignInDBTest {
 
     @BeforeAll
     public static void setUpDatabase() {
-        Executer<Void> executer = new Executer<>();
+        Executer<Void> executer = new Executer<>(SessionType.WRITE);
         executer.execute(new SetupUserDBExecuter());
     }
 

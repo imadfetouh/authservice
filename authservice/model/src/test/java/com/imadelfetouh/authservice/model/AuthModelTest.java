@@ -8,21 +8,22 @@ public class AuthModelTest {
 
     @Test
     public void testConstructor() {
-        AuthModel authModel = new AuthModel(1, "imad", "user.jpg");
+        AuthModel authModel = new AuthModel("1", "imad", "user.jpg", "ADMINISTRATOR");
 
-        Assertions.assertEquals(1, authModel.getUserId());
+        Assertions.assertEquals("1", authModel.getUserId());
         Assertions.assertEquals("imad", authModel.getUsername());
         Assertions.assertEquals("user.jpg", authModel.getPhoto());
+        Assertions.assertEquals("ADMINISTRATOR", authModel.getRole());
     }
 
     @Test
     public void testGettersAndSetters() {
         AuthModel authModel = new AuthModel();
-        authModel.setUserId(1);
+        authModel.setUserId("1");
         authModel.setUsername("imad");
         authModel.setPhoto("user.jpg");
 
-        Assertions.assertEquals(1, authModel.getUserId());
+        Assertions.assertEquals("1", authModel.getUserId());
         Assertions.assertEquals("imad", authModel.getUsername());
         Assertions.assertEquals("user.jpg", authModel.getPhoto());
     }

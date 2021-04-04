@@ -2,9 +2,12 @@ trigger:
 - main
 
 variables:
-  AUTHSERVICE_MYSQL_HOST: localhost
-  AUTHSERVICE_MYSQL_USER: root
-  AUTHSERVICE_MYSQL_PASS: imad
+  AUTHSERVICE_MYSQL_MASTER_HOST: localhost
+  AUTHSERVICE_MYSQL_REPLICA_HOST: localhost
+  AUTHSERVICE_MYSQL_MASTER_PORT: 3306
+  AUTHSERVICE_MYSQL_REPLICA_PORT: 3306
+  MYSQL_USER: root
+  MYSQL_PASS: imad
 
 pool:
   vmImage: ubuntu-latest
@@ -14,7 +17,7 @@ steps:
   inputs:
     containerregistrytype: 'Container Registry'
     dockerRegistryEndpoint: 'DockerRegistry'
-    dockerComposeFile: 'docker-compose.yml'
+    dockerComposeFile: 'docker/docker-compose.yml'
     action: 'Run a Docker Compose command'
     dockerComposeCommand: 'up -d'
     
@@ -36,7 +39,7 @@ steps:
     containerRegistry: 'DockerRegistry'
     repository: 'imadelfetouh99/authservice'
     command: 'buildAndPush'
-    Dockerfile: 'Dockerfile'
+    Dockerfile: 'docker/Dockerfile'
     buildContext: 
     tags: 'latest'
 

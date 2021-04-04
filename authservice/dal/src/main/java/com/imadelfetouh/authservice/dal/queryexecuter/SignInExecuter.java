@@ -28,12 +28,13 @@ public class SignInExecuter implements QueryExecuter<AuthModel> {
     public ResponseModel<AuthModel> executeQuery(Session session) {
         ResponseModel<AuthModel> responseModel = new ResponseModel<>();
 
-        Query query = session.createQuery("SELECT new com.imadelfetouh.authservice.model.dto.AuthModel(u.id, u.password, u.photo) FROM User u WHERE u.username = :username AND u.password = :password");
+        Query query = session.createQuery("SELECT u FROM User u WHERE u.username = :username AND password = :password");
         query.setParameter("username", this.username);
         query.setParameter("password", this.password);
 
         try {
-            AuthModel authModel = (AuthModel) query.getSingleResult();
+            User user = (User) query.getSingleResult();
+            AuthModel authModel = new AuthModel(user.getUserId(), user.getUsername(), user.getPhoto(), user.getRole().name());
             responseModel.setData(authModel);
             responseModel.setResponseType(ResponseType.CORRECT);
         }

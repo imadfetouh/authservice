@@ -1,5 +1,7 @@
 package com.imadelfetouh.authservice.dal.ormmodel;
 
+import org.hibernate.annotations.Type;
+
 import javax.persistence.*;
 
 @Entity
@@ -21,6 +23,9 @@ public class User {
     @Column(name = "id")
     private Integer id;
 
+    @Column(name = "userId")
+    private String userId;
+
     @Column(name = "username")
     private String username;
 
@@ -34,7 +39,19 @@ public class User {
     @Column(name = "photo")
     private String photo;
 
-    public Integer getId() {
-        return id;
+    public String getUserId() {
+        return userId;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPhoto() {
+        return photo;
+    }
+
+    public Role getRole() {
+        return role;
     }
 }

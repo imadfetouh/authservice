@@ -10,8 +10,8 @@ public class Executer<T> extends SessionHelper {
 
     private static final Logger logger = Logger.getLogger(Executer.class.getName());
 
-    public Executer() {
-        super();
+    public Executer(SessionType sessionType) {
+        super(sessionType);
     }
 
     public ResponseModel<T> execute(QueryExecuter<T> queryExecuter) {

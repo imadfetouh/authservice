@@ -6,8 +6,14 @@ public class SessionHelper {
 
     private Session session;
 
-    public SessionHelper() {
-        this.session = SessionConfiguration.getInstance().getSession();
+    public SessionHelper(SessionType sessionType) {
+        if(sessionType.equals(SessionType.WRITE)) {
+            this.session = ReadWriteConfiguration.getInstance().getSessionWriteConfiguration().getSession();
+        }
+        else{
+            this.session = ReadWriteConfiguration.getInstance().getSessionReadConfiguration().getSession();
+        }
+
         this.session.beginTransaction();
     }
 
