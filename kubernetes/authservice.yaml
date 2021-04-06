@@ -17,7 +17,7 @@ spec:
       containers:
         - name: authservice
           imagePullPolicy: Always
-          image: imadelfetouh99/authservice
+          image: imadelfetouh99/authservice:latest
           ports:
             - containerPort: 8080
           env:
