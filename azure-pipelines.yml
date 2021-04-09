@@ -51,4 +51,3 @@ steps:
     dockerComposeFile: 'docker/docker-production-compose.yml'
     projectName: 'imadelfetouh99/authservice'
     action: 'Push services'
-    additionalImageTags: 'latest'
