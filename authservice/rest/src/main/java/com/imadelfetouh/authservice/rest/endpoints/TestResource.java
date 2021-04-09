@@ -12,6 +12,6 @@ public class TestResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public Response test() {
-        return Response.status(200).entity("hoi").build();
+        return Response.status(200).entity("hellll").build();
     }
 }
