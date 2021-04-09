@@ -42,12 +42,3 @@ steps:
     Dockerfile: 'docker/Dockerfile'
     buildContext: 
     tags: 'latest'
-
-- task: DockerCompose@0
-  inputs:
-    containerregistrytype: 'Azure Container Registry'
-    azureSubscription: 'Azure for Students(a82fa0f1-3269-403a-a80f-e6891debc186)'
-    azureContainerRegistry: '{"loginServer":"kwetterimad.azurecr.io", "id" : "/subscriptions/a82fa0f1-3269-403a-a80f-e6891debc186/resourceGroups/appsvc_windows_centralus/providers/Microsoft.ContainerRegistry/registries/kwetterimad"}'
-    dockerComposeFile: 'docker/docker-production-compose.yml'
-    projectName: 'imadelfetouh99/authservice'
-    action: 'Push services'
