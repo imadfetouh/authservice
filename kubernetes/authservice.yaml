@@ -21,11 +21,17 @@ spec:
           ports:
             - containerPort: 8080
           env:
-            - name: AUTHSERVICE_MYSQL_HOST
-              value: mysql-authservice-service
-            - name: AUTHSERVICE_MYSQL_USER
+            - name: AUTHSERVICE_MYSQL_MASTER_HOST
+              value: mysql-authservice-master-service
+            - name: AUTHSERVICE_MYSQL_REPLICA_HOST
+              value: mysql-authservice-replica-service
+            - name: AUTHSERVICE_MYSQL_MASTER_PORT
+              value: '3309'
+            - name: AUTHSERVICE_MYSQL_REPLICA_PORT
+              value: '3311'
+            - name: MYSQL_USER
               value: root
-            - name: AUTHSERVICE_MYSQL_PASS
+            - name: MYSQL_PASS
               value: imad
 ---
 apiVersion: v1
@@ -35,6 +41,7 @@ metadata:
 spec:
   selector:
     app: authservice
+  type: LoadBalancer
   ports:
-    - port: 8080
+    - port: 8081
       targetPort: 8080
