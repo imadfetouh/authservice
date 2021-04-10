@@ -100,7 +100,7 @@ spec:
         # readinessProbe:
         #   exec:
         #     # Check we can execute queries over TCP (skip-networking is off).
-        #     command: ["mysql", "-h", "127.0.0.1", "-e", "SELECT 1"]
+        #     command: ["mysql", "-h", "127.0.0.1", "-pimad", -e", "SELECT 1"]
         #   initialDelaySeconds: 5
         #   periodSeconds: 2
         #   timeoutSeconds: 1
@@ -151,7 +151,7 @@ spec:
 
           # Start a server to send backups when requested by peers.
           exec ncat --listen --keep-open --send-only --max-conns=1 3307 -c \
-            "xtrabackup --backup --slave-info --stream=xbstream --host=127.0.0.1 --user=root --password=imad"          
+            "xtrabackup --backup --slave-info --stream=xbstream --host=localhost --user=root --password=imad"          
         volumeMounts:
         - name: data
           mountPath: /var/lib/mysql
@@ -161,7 +161,7 @@ spec:
         resources:
           requests:
             cpu: 100m
-            memory: 100Mi
+            memory: 1500Mi
       volumes:
       - name: conf
         emptyDir: {}
@@ -175,4 +175,4 @@ spec:
       accessModes: ["ReadWriteOnce"]
       resources:
         requests:
-          storage: 10Gi
+          storage: 1Gi

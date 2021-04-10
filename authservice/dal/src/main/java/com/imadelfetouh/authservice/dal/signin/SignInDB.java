@@ -12,7 +12,7 @@ public class SignInDB implements SignInDal {
     private Executer<AuthModel> executer;
 
     public SignInDB() {
-        executer = new Executer<>(SessionType.READ);
+        executer = new Executer<>(SessionType.WRITE);
     }
 
     @Override
