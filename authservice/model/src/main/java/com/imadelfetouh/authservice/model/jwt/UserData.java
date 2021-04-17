@@ -1,22 +1,18 @@
-package com.imadelfetouh.authservice.model.dto;
+package com.imadelfetouh.authservice.model.jwt;
 
-import java.io.Serializable;
-
-public class AuthModel implements Serializable {
+public class UserData {
 
     private String userId;
     private String username;
-    private String photo;
     private String role;
 
-    public AuthModel() {
+    public UserData() {
 
     }
 
-    public AuthModel(String userId, String username, String photo, String role) {
+    public UserData(String userId, String username, String role) {
         this.userId = userId;
         this.username = username;
-        this.photo = photo;
         this.role = role;
     }
 
@@ -34,14 +30,6 @@ public class AuthModel implements Serializable {
 
     public String getUsername() {
         return username;
-    }
-
-    public void setPhoto(String photo) {
-        this.photo = photo;
-    }
-
-    public String getPhoto() {
-        return photo;
     }
 
     public void setRole(String role) {

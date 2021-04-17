@@ -13,6 +13,7 @@ spec:
   - name: xtrabackup
     port: 3310
     targetPort: 3307
+  type: LoadBalancer
   selector:
     master-app: mysql-authservice
 ---
@@ -71,9 +72,9 @@ spec:
         - name: conf
           mountPath: /etc/mysql/conf.d
         resources:
-          requests:
-            cpu: 500m
-            memory: 1Gi
+          limits:
+            memory: 256Mi
+            cpu: 100m
         # livenessProbe:
         #   exec:
         #     command: ["mysqladmin", "ping", "-p", "imad"]
@@ -107,9 +108,9 @@ spec:
         - name: conf
           mountPath: /etc/mysql/conf.d
         resources:
-          requests:
-            cpu: 100m
+          limits:
             memory: 100Mi
+            cpu: 100m
       volumes:
       - name: conf
         emptyDir: {}
@@ -123,4 +124,4 @@ spec:
       accessModes: ["ReadWriteOnce"]
       resources:
         requests:
-          storage: 10Gi
+          storage: 500Mi

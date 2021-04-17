@@ -4,4 +4,7 @@ module rest {
     requires factory;
     requires dalinterface;
     requires com.google.gson;
+    requires jjwt.api;
+    requires javax.servlet.api;
+    requires dal;
 }

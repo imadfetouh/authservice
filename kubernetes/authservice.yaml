@@ -33,6 +33,10 @@ spec:
               value: root
             - name: MYSQL_PASS
               value: imad
+          resources:
+            limits:
+              memory: 256Mi
+              cpu: 100m
 ---
 apiVersion: v1
 kind: Service
@@ -41,6 +45,7 @@ metadata:
 spec:
   selector:
     app: authservice
+  loadBalancerIP: 52.165.44.55
   type: LoadBalancer
   ports:
     - port: 8081

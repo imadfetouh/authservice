@@ -4,7 +4,7 @@ import com.google.gson.Gson;
 import com.imadelfetouh.authservice.dalinterface.SignInDal;
 import com.imadelfetouh.authservice.factory.Factory;
 import com.imadelfetouh.authservice.factory.signininstance.CreateSignInInstance;
-import com.imadelfetouh.authservice.model.dto.AuthModel;
+import com.imadelfetouh.authservice.model.jwt.UserData;
 import com.imadelfetouh.authservice.model.response.ResponseModel;
 import com.imadelfetouh.authservice.model.response.ResponseType;
 
@@ -30,7 +30,7 @@ public class SignInResource {
             return Response.status(400).build();
         }
 
-        ResponseModel<AuthModel> responseModel = signInDal.signIn(username, password);
+        ResponseModel<UserData> responseModel = signInDal.signIn(username, password);
 
         if(responseModel.getResponseType().equals(ResponseType.ERROR)){
             return Response.status(500).build();
@@ -42,7 +42,7 @@ public class SignInResource {
 
         Gson gson = new Gson();
 
-        return Response.status(200).entity(gson.toJson(responseModel.getData())).build();
+        return Response.status(200).entity(gson.toJson(responseModel.getData())).cookie().build();
 
     }
 }
