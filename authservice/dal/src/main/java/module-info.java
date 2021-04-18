@@ -6,10 +6,13 @@ module dal {
     requires java.sql;
     requires dalinterface;
     requires model;
+    requires com.rabbitmq.client;
+    requires com.google.gson;
 
     exports com.imadelfetouh.authservice.dal.signin;
     exports com.imadelfetouh.authservice.dal.configuration;
     exports com.imadelfetouh.authservice.dal.queryexecuter;
 
     opens com.imadelfetouh.authservice.dal.ormmodel;
+    exports com.imadelfetouh.authservice.dal.rabbit.thread;
 }

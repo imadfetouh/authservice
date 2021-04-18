@@ -1,26 +1,28 @@
-package com.imadelfetouh.authservice.dal.setup;
+package com.imadelfetouh.authservice.dal.queryexecuter;
 
 import com.imadelfetouh.authservice.dal.configuration.QueryExecuter;
 import com.imadelfetouh.authservice.dal.ormmodel.Role;
 import com.imadelfetouh.authservice.dal.ormmodel.User;
+import com.imadelfetouh.authservice.model.dto.NewUserDTO;
 import com.imadelfetouh.authservice.model.response.ResponseModel;
 import com.imadelfetouh.authservice.model.response.ResponseType;
 import org.hibernate.Session;
 
-public class SetupUserDBExecuter implements QueryExecuter<Void> {
+public class AddUserExecuter implements QueryExecuter<Void> {
 
-    public SetupUserDBExecuter() {
+    private NewUserDTO newUserDTO;
 
+    public AddUserExecuter(NewUserDTO newUserDTO) {
+        this.newUserDTO = newUserDTO;
     }
 
     @Override
     public ResponseModel<Void> executeQuery(Session session) {
         ResponseModel<Void> responseModel = new ResponseModel<>();
-        User user = new User("123", "imad", "imad", Role.ADMINISTRATOR);
-        User user1 = new User("123", "test", "test", Role.USER);
+
+        User user = new User(newUserDTO.getUserId(), newUserDTO.getUsername(), newUserDTO.getPassword(), Role.valueOf(newUserDTO.getRole()));
 
         session.persist(user);
-        session.persist(user1);
 
         session.getTransaction().commit();
 
