@@ -10,6 +10,7 @@ spec:
   - name: mysql
     port: 3311
     targetPort: 3306
+  type: LoadBalancer
   selector:
     replica-app: mysql-authservice
 ---
