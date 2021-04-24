@@ -11,9 +11,12 @@ import com.imadelfetouh.authservice.model.response.ResponseType;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.util.logging.Logger;
 
 @Path("/signin")
 public class SignInResource {
+
+    private final static Logger logger = Logger.getLogger(SignInResource.class.getName());
 
     private SignInDal signInDal;
 
@@ -25,6 +28,8 @@ public class SignInResource {
     @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
     @Produces(MediaType.TEXT_PLAIN)
     public Response signIn(@FormParam("username") String username, @FormParam("password") String password) {
+
+        logger.info("Sign in request: username: " + username + " and password: " + password);
 
         if(username == null || username.trim().isEmpty() || password == null || password.trim().isEmpty()){
             return Response.status(400).build();
