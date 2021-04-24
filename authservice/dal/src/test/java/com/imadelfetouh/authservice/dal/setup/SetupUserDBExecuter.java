@@ -3,6 +3,7 @@ package com.imadelfetouh.authservice.dal.setup;
 import com.imadelfetouh.authservice.dal.configuration.QueryExecuter;
 import com.imadelfetouh.authservice.dal.ormmodel.Role;
 import com.imadelfetouh.authservice.dal.ormmodel.User;
+import com.imadelfetouh.authservice.dal.security.PasswordHash;
 import com.imadelfetouh.authservice.model.response.ResponseModel;
 import com.imadelfetouh.authservice.model.response.ResponseType;
 import org.hibernate.Session;
@@ -16,8 +17,11 @@ public class SetupUserDBExecuter implements QueryExecuter<Void> {
     @Override
     public ResponseModel<Void> executeQuery(Session session) {
         ResponseModel<Void> responseModel = new ResponseModel<>();
-        User user = new User("123", "imad", "imad", Role.ADMINISTRATOR);
-        User user1 = new User("123", "test", "test", Role.USER);
+
+        String password = PasswordHash.getInstance().hash("imad");
+
+        User user = new User("123", "imad", password, Role.ADMINISTRATOR);
+        User user1 = new User("1234", "test", "test", Role.USER);
 
         session.persist(user);
         session.persist(user1);

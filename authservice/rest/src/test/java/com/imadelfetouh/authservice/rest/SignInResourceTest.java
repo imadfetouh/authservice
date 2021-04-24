@@ -13,7 +13,7 @@ public class SignInResourceTest {
     public void testUserSignInCorrect() {
         SignInResource signInResource = new SignInResource();
         String username = "imad";
-        String password = PasswordHash.getInstance().hash("imad");
+        String password = "imad";
 
         Response response = signInResource.signIn(username, password);
 

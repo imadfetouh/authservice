@@ -24,8 +24,7 @@ public class SignInDBTest {
     @Test
     public void testUserSignInCorrect() {
         SignInDal signInDal = new SignInDB();
-        String password = PasswordHash.getInstance().hash("imad");
-        ResponseModel<UserData> responseModel = signInDal.signIn("imad", password);
+        ResponseModel<UserData> responseModel = signInDal.signIn("imad", "imad");
 
         Assertions.assertEquals(ResponseType.CORRECT, responseModel.getResponseType());
         Assertions.assertEquals("imad", responseModel.getData().getUsername());
