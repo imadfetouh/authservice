@@ -2,6 +2,7 @@ package com.imadelfetouh.authservice.dal;
 
 import com.imadelfetouh.authservice.dal.configuration.Executer;
 import com.imadelfetouh.authservice.dal.configuration.SessionType;
+import com.imadelfetouh.authservice.dal.security.PasswordHash;
 import com.imadelfetouh.authservice.dal.setup.SetupUserDBExecuter;
 import com.imadelfetouh.authservice.dal.signin.SignInDB;
 import com.imadelfetouh.authservice.dalinterface.SignInDal;
@@ -23,7 +24,8 @@ public class SignInDBTest {
     @Test
     public void testUserSignInCorrect() {
         SignInDal signInDal = new SignInDB();
-        ResponseModel<UserData> responseModel = signInDal.signIn("imad", "imad");
+        String password = PasswordHash.getInstance().hash("imad");
+        ResponseModel<UserData> responseModel = signInDal.signIn("imad", password);
 
         Assertions.assertEquals(ResponseType.CORRECT, responseModel.getResponseType());
         Assertions.assertEquals("imad", responseModel.getData().getUsername());

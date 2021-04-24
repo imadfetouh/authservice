@@ -1,5 +1,6 @@
 package com.imadelfetouh.authservice.rest;
 
+import com.imadelfetouh.authservice.dal.security.PasswordHash;
 import com.imadelfetouh.authservice.rest.endpoints.SignInResource;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -12,7 +13,7 @@ public class SignInResourceTest {
     public void testUserSignInCorrect() {
         SignInResource signInResource = new SignInResource();
         String username = "imad";
-        String password = "imad";
+        String password = PasswordHash.getInstance().hash("imad");
 
         Response response = signInResource.signIn(username, password);
 
