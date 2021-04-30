@@ -24,15 +24,20 @@ spec:
             - name: AUTHSERVICE_MYSQL_MASTER_HOST
               value: mysql-authservice-master-service
             - name: AUTHSERVICE_MYSQL_REPLICA_HOST
-              value: mysql-authservice-replica-service
+              value: mysql-authservice-master-service
             - name: AUTHSERVICE_MYSQL_MASTER_PORT
               value: '3309'
             - name: AUTHSERVICE_MYSQL_REPLICA_PORT
-              value: '3311'
+              value: '3309'
             - name: MYSQL_USER
               value: root
             - name: MYSQL_PASS
-              value: imad
+              valueFrom:
+                secretKeyRef:
+                  name: mysql
+                  key: password
+            - name: RABBIT_HOST
+              value: rabbit-service
           resources:
             limits:
               memory: 256Mi
@@ -45,7 +50,6 @@ metadata:
 spec:
   selector:
     app: authservice
-  loadBalancerIP: 52.165.44.55
   type: LoadBalancer
   ports:
     - port: 8081
