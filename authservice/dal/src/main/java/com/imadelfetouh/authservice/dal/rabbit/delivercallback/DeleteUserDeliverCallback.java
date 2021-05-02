@@ -18,6 +18,7 @@ public class DeleteUserDeliverCallback implements DeliverCallback {
     @Override
     public void handle(String s, Delivery delivery) throws IOException {
         try {
+            logger.info("Message received delete user");
             String userId = new String(delivery.getBody(), StandardCharsets.UTF_8);
 
             Executer<Void> executer = new Executer<>(SessionType.WRITE);

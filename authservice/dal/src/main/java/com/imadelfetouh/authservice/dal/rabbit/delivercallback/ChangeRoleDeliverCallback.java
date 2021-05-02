@@ -26,6 +26,7 @@ public class ChangeRoleDeliverCallback implements DeliverCallback {
     @Override
     public void handle(String s, Delivery delivery) throws IOException {
         try {
+            logger.info("Message received change role");
             String json = new String(delivery.getBody(), StandardCharsets.UTF_8);
             ChangeRoleDTO changeRoleDTO = gson.fromJson(json, ChangeRoleDTO.class);
 
