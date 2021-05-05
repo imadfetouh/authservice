@@ -7,10 +7,14 @@ import com.imadelfetouh.authservice.factory.signininstance.CreateSignInInstance;
 import com.imadelfetouh.authservice.model.jwt.UserData;
 import com.imadelfetouh.authservice.model.response.ResponseModel;
 import com.imadelfetouh.authservice.model.response.ResponseType;
+import com.imadelfetouh.authservice.rest.jwt.CreateJWTToken;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.NewCookie;
 import javax.ws.rs.core.Response;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.logging.Logger;
 
 @Path("/signin")
@@ -47,7 +51,12 @@ public class SignInResource {
 
         Gson gson = new Gson();
 
-        return Response.status(200).entity(gson.toJson(responseModel.getData())).cookie().build();
+        Map<String, String> claims = new HashMap<>();
+        claims.put("userdata", gson.toJson(responseModel.getData()));
+        String token = CreateJWTToken.getInstance().create(claims);
 
+        NewCookie newCookie = new NewCookie("jwt-token", token, "/", "20.80.120.180", "", -1, false, true);
+
+        return Response.status(200).entity(gson.toJson(responseModel.getData())).cookie(newCookie).build();
     }
 }
