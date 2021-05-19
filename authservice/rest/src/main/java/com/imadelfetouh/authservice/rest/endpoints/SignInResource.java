@@ -33,7 +33,7 @@ public class SignInResource {
     @Produces(MediaType.TEXT_PLAIN)
     public Response signIn(@FormParam("username") String username, @FormParam("password") String password) {
 
-        logger.info("Sign in request: username: " + username + " and password: " + password);
+        logger.info("Sign in request made");
 
         if(username == null || username.trim().isEmpty() || password == null || password.trim().isEmpty()){
             return Response.status(400).build();

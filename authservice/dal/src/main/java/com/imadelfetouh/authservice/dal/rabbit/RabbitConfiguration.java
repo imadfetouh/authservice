@@ -37,7 +37,7 @@ public class RabbitConfiguration {
         }
     }
 
-    public Channel getChannel() {
+    public synchronized Channel getChannel() {
         try {
             if(connection == null) {
                 createConnection();
@@ -47,5 +47,9 @@ public class RabbitConfiguration {
             logger.log(Level.ALL, e.getMessage());
             return null;
         }
+    }
+
+    public Connection getConnection() {
+        return connection;
     }
 }
