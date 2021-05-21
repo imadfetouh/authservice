@@ -48,12 +48,3 @@ steps:
     action: 'deploy'
     kubernetesServiceConnection: 'kube_kwetterimad'
     manifests: 'kubernetes/authservice.yaml'
-
-- task: Kubernetes@1
-  inputs:
-    connectionType: 'Kubernetes Service Connection'
-    kubernetesServiceEndpoint: 'kube_kwetterimad'
-    command: 'rollout restart'
-    arguments: 'deployment authservice-deployment'
-    secretType: 'dockerRegistry'
-    containerRegistryType: 'Azure Container Registry'
